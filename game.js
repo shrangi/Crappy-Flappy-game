@@ -1,5 +1,5 @@
 var cvs = document.getElementById("canvas") ;
-var ctx = document.getContext("2d");
+var ctx = cvs.getContext("2d");
 
 // load images
 
