@@ -1,0 +1,8 @@
+@font-face {
+    font-family:bubble;
+    src: url(fonts/double_bubble_shadow.otf);
+}
+
+body {
+    font-family: bubble;
+}
