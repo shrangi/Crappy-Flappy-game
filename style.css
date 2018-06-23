@@ -1,0 +1,25 @@
+html{
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: 'Flavors', cursive;
+	color: #3DAAC7;
+	background-color:#000;
+}
+
+h1{font-size:40px;}
+
+#canvas {
+	position:absolute;
+	left:0;
+	right:0;
+	margin-left:40px;
+	margin-top:40px;
+	box-shadow:3px 3px 5px 6px #357;
+	
+}
+.footer{
+	font-family:forte;
+	font-size:20px;
+}
