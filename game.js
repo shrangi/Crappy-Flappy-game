@@ -62,7 +62,7 @@ function draw()
 		pipe[i].x-- ;
 		
 		if(pipe[i].x == 125) //generating random pipes
-		{		pipe.push({
+		{	pipe.push({
 				x:cvs.width,	
 				y:Math.floor(Math.random()*pipeNorth.height)-pipeNorth.height
 			});
@@ -76,7 +76,7 @@ function draw()
 			else if(score<=6) alert("Not Bad!");
 			else if(score<=11) alert("Great Job!");
 			else if(score>11) alert("Insane!");
-			location.reload(); //reload the page
+			location.reload(True); //reload the page
 		}		
 	}	 
     
