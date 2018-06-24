@@ -5,7 +5,7 @@ This Game is developed in javascript language using simple logics that is beginn
 For best experience use a desktop. Later update for mobile screens will be provided
 
 use the below link to play
-https://cdn.rawgit.com/shrangi/Crappy-Flappy-game/15809d90/index.html
+https://rawgit.com/shrangi/Crappy-Flappy-game/master/index.html
 
 Controls - 
   
