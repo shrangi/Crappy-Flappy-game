@@ -34,6 +34,12 @@ var by = 150;
 var gravity = 2	;
 var score =0 ;
 
+window.onkeydown = function(e){
+	if(e.keyCode == 32 && e.target == document.body){
+		e.preventDefault();
+	}
+};  // Function to stop scrolling page when spacebar is pressed
+
 document.addEventListener('keydown',moveUp);
 
 function moveUp(){
@@ -76,7 +82,7 @@ function draw()
 			else if(score<=6) alert("Not Bad!");
 			else if(score<=11) alert("Great Job!");
 			else if(score>11) alert("Insane!");
-			location.reload(True); //reload the page
+			location.reload(true); //reload the page
 		}		
 	}	 
     
