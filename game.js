@@ -41,6 +41,11 @@ window.onkeydown = function(e){
 };  // Function to stop scrolling page when spacebar is pressed
 
 document.addEventListener('keydown',moveUp);
+cvs.addEventListener('touchstart',function(e){
+	e.preventDefault();
+	by -= 35;  
+	fly.play();
+});
 
 function moveUp(){
 	by -= 35;  
