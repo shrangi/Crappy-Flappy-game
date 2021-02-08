@@ -5,7 +5,7 @@ This Game is developed in javascript language using simple logics that is beginn
 For best experience use a desktop. Later update for mobile screens will be provided
 
 use the below link to play
-https://rawgit.com/shrangi/Crappy-Flappy-game/master/index.html
+https://elegant-stonebraker-05a1d1.netlify.app
 
 Controls - 
   
